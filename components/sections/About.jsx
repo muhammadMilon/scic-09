@@ -6,19 +6,21 @@ export default function About() {
           {/* Content */}
           <div className="animate-slide-up">
             <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-              About This <span className="text-gradient">Project</span>
+              About <span className="text-gradient">NextMind Academy</span>
             </h2>
             <p className="text-lg text-dark-700 dark:text-dark-300 mb-6 leading-relaxed">
-              This application is a comprehensive demonstration of modern full-stack web development,
-              showcasing my learning journey in the MERN Stack, Agentic AI, and AI Workflow systems.
+              NextMind Academy is your premier destination for mastering modern web development
+              and cutting-edge technologies. We offer comprehensive courses designed by industry
+              experts to help you build real-world skills.
             </p>
             <p className="text-lg text-dark-700 dark:text-dark-300 mb-6 leading-relaxed">
-              Built with Next.js 15, this project implements best practices in web development,
-              including server-side rendering, API routes, authentication, and responsive design.
+              Our curriculum covers everything from MERN Stack development to AI integration,
+              with hands-on projects and practical applications that prepare you for the
+              challenges of modern software development.
             </p>
             <p className="text-lg text-dark-700 dark:text-dark-300 mb-8 leading-relaxed">
-              The goal is to create a portfolio piece that demonstrates both technical proficiency
-              and an understanding of modern web architecture and AI integration.
+              Join thousands of students who have transformed their careers through our
+              expert-led courses and supportive learning community.
             </p>
 
             {/* Key Points */}
@@ -28,9 +30,9 @@ export default function About() {
                   ✓
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">Full-Stack Development</h4>
+                  <h4 className="font-semibold text-lg mb-1">Expert-Led Courses</h4>
                   <p className="text-dark-600 dark:text-dark-400">
-                    Complete MERN stack implementation with modern tooling
+                    Learn from industry professionals with years of real-world experience
                   </p>
                 </div>
               </div>
@@ -39,9 +41,9 @@ export default function About() {
                   ✓
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">AI Integration</h4>
+                  <h4 className="font-semibold text-lg mb-1">Hands-On Projects</h4>
                   <p className="text-dark-600 dark:text-dark-400">
-                    Exploring Agentic AI and workflow automation systems
+                    Build real applications and portfolios while you learn
                   </p>
                 </div>
               </div>
@@ -50,9 +52,9 @@ export default function About() {
                   ✓
                 </div>
                 <div>
-                  <h4 className="font-semibold text-lg mb-1">Modern Design</h4>
+                  <h4 className="font-semibold text-lg mb-1">Lifetime Access</h4>
                   <p className="text-dark-600 dark:text-dark-400">
-                    Premium UI/UX with attention to detail and user experience
+                    Learn at your own pace with unlimited access to all course materials
                   </p>
                 </div>
               </div>
@@ -64,24 +66,24 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="aspect-square bg-gradient-to-br from-primary-500 via-accent-500 to-primary-700 p-12 flex items-center justify-center">
                 <div className="text-center text-white">
-                  <div className="text-6xl mb-6">💻</div>
-                  <h3 className="text-3xl font-bold mb-4">Learning Journey</h3>
+                  <div className="text-6xl mb-6">🎓</div>
+                  <h3 className="text-3xl font-bold mb-4">Our Impact</h3>
                   <div className="grid grid-cols-2 gap-4 mt-8">
                     <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
-                      <div className="text-3xl font-bold">MERN</div>
-                      <div className="text-sm">Stack</div>
+                      <div className="text-3xl font-bold">5K+</div>
+                      <div className="text-sm">Students</div>
                     </div>
                     <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
-                      <div className="text-3xl font-bold">AI</div>
-                      <div className="text-sm">Integration</div>
+                      <div className="text-3xl font-bold">50+</div>
+                      <div className="text-sm">Courses</div>
                     </div>
                     <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
-                      <div className="text-3xl font-bold">Next.js</div>
-                      <div className="text-sm">15/16</div>
+                      <div className="text-3xl font-bold">4.8</div>
+                      <div className="text-sm">Avg Rating</div>
                     </div>
                     <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
-                      <div className="text-3xl font-bold">Full</div>
-                      <div className="text-sm">Stack</div>
+                      <div className="text-3xl font-bold">95%</div>
+                      <div className="text-sm">Success Rate</div>
                     </div>
                   </div>
                 </div>

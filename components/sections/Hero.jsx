@@ -20,20 +20,20 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold font-display mb-6 text-white">
             Welcome to{' '}
             <span className="text-gradient bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-              DevPortfolio
+              NextMind Academy
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-dark-200 mb-8 max-w-3xl mx-auto">
-            A modern full-stack Next.js application showcasing MERN Stack development,
-            Agentic AI integration, and advanced AI Workflow systems.
+            Master modern web development with our comprehensive courses in MERN Stack,
+            AI Integration, and cutting-edge technologies.
           </p>
           <p className="text-lg text-dark-300 mb-12 max-w-2xl mx-auto">
-            Built with cutting-edge technologies to demonstrate core web development
-            concepts and modern design principles.
+            Learn from industry experts and build real-world projects with the latest
+            tools and best practices.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="#features"
               className="px-8 py-4 gradient-primary text-white rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all"

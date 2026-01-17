@@ -38,7 +38,7 @@ export default function Navbar() {
             href="/"
             className="text-2xl font-bold font-display text-gradient hover:scale-105 transition-transform"
           >
-            DevPortfolio
+            NextMind Academy
           </Link>
 
           {/* Desktop Navigation */}
@@ -67,6 +67,12 @@ export default function Navbar() {
             >
               Services
             </button>
+            <Link
+              href="/courses"
+              className="text-foreground hover:text-primary-600 transition-colors font-medium"
+            >
+              Courses
+            </Link>
             <a
               href="#contact"
               className="px-6 py-2 gradient-primary text-white rounded-full hover:shadow-lg hover:scale-105 transition-all font-semibold"
@@ -135,6 +141,13 @@ export default function Navbar() {
             >
               Services
             </button>
+            <Link
+              href="/courses"
+              className="block w-full text-left px-4 py-2 rounded-lg hover:bg-dark-100 dark:hover:bg-dark-800 transition-colors font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Courses
+            </Link>
             <a
               href="#contact"
               className="block w-full text-center px-4 py-2 gradient-primary text-white rounded-lg hover:shadow-lg transition-all font-semibold"

@@ -9,11 +9,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold font-display text-gradient mb-4">
-              DevPortfolio
+              NextMind Academy
             </h3>
             <p className="text-dark-300 mb-4">
-              A full-stack Next.js application demonstrating MERN Stack, Agentic AI, 
-              and AI Workflow systems. Built with modern web technologies.
+              Empowering developers with cutting-edge courses in MERN Stack, AI Integration,
+              and modern web technologies. Learn, build, and grow with us.
             </p>
             <div className="flex space-x-4">
               <a
@@ -91,7 +91,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-dark-700 mt-8 pt-8 text-center text-dark-400">
-          <p>&copy; {currentYear} DevPortfolio. All rights reserved.</p>
+          <p>&copy; {currentYear} NextMind Academy. All rights reserved.</p>
         </div>
       </div>
     </footer>

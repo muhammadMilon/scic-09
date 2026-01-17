@@ -14,8 +14,8 @@ const outfit = Outfit({
 });
 
 export const metadata = {
-  title: "DevPortfolio - Next.js Landing Page",
-  description: "A modern full-stack Next.js application showcasing MERN Stack, Agentic AI, and AI Workflow systems",
+  title: "NextMind Academy - Learn & Grow",
+  description: "NextMind Academy - Your gateway to modern web development, AI integration, and cutting-edge technology courses",
 };
 
 export default function RootLayout({ children }) {

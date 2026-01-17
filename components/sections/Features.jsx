@@ -2,33 +2,33 @@ export default function Features() {
   const features = [
     {
       icon: '🚀',
-      title: 'Next.js 15 App Router',
-      description: 'Built with the latest Next.js features including App Router, Server Components, and optimized performance.',
+      title: 'Industry-Ready Skills',
+      description: 'Learn the latest technologies and frameworks used by top companies worldwide.',
     },
     {
       icon: '🎨',
-      title: 'Modern Design',
-      description: 'Stunning UI with Tailwind CSS, custom animations, gradients, and glassmorphism effects.',
+      title: 'Project-Based Learning',
+      description: 'Build real-world applications and create an impressive portfolio while you learn.',
     },
     {
-      icon: '🔐',
-      title: 'Authentication',
-      description: 'Secure authentication system with protected routes and session management.',
+      icon: '👨‍🏫',
+      title: 'Expert Instructors',
+      description: 'Learn from industry professionals with years of hands-on development experience.',
     },
     {
       icon: '📱',
-      title: 'Fully Responsive',
-      description: 'Seamless experience across all devices - mobile, tablet, and desktop.',
+      title: 'Learn Anywhere',
+      description: 'Access courses on any device - desktop, tablet, or mobile with seamless sync.',
     },
     {
       icon: '⚡',
-      title: 'Performance Optimized',
-      description: 'Lightning-fast load times with code splitting, lazy loading, and optimized assets.',
+      title: 'Self-Paced Learning',
+      description: 'Study at your own pace with lifetime access to all course materials and updates.',
     },
     {
-      icon: '🤖',
-      title: 'AI Integration',
-      description: 'Demonstrates integration with Agentic AI and AI Workflow systems.',
+      icon: '🎓',
+      title: 'Certificates',
+      description: 'Earn certificates of completion to showcase your achievements to employers.',
     },
   ];
 
@@ -37,10 +37,10 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold font-display mb-4">
-            Powerful <span className="text-gradient">Features</span>
+            Why Choose <span className="text-gradient">NextMind Academy</span>
           </h2>
           <p className="text-xl text-dark-600 dark:text-dark-300 max-w-2xl mx-auto">
-            Built with modern technologies and best practices to deliver an exceptional user experience.
+            Experience world-class education with comprehensive courses designed to transform your career.
           </p>
         </div>
 
