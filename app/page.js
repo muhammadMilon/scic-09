@@ -11,6 +11,7 @@ import Testimonials from '@/components/sections/Testimonials';
 export default function Home() {
   return (
     <main>
+      {/* Navbar updated */}
       <Navbar />
       <Hero />
       <Features />
