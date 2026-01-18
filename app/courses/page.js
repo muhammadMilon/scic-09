@@ -95,7 +95,7 @@ export default function CoursesPage() {
                     {/* Course Image */}
                     <div className="relative h-48 overflow-hidden">
                       <img
-                        src={course.image}
+                        src={course.image || 'https://placehold.co/600x400?text=No+Image'}
                         alt={course.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                       />

@@ -133,7 +133,7 @@ export default function CourseDetailsPage() {
             <div className="lg:col-span-5">
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl shadow-primary-500/10 border border-dark-100 group">
                 <img
-                  src={course.image}
+                  src={course.image || 'https://placehold.co/800x800?text=No+Image'}
                   alt={course.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
